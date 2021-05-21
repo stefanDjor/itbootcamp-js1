@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forme</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#">
+        <fieldset>
+            <legend>Log IN</legend>
+            <label for="">First Name:</label>
+            <input type="text" name="" id="" placeholder="Vase ime"><br><br>
+            <label>Last Name:</label>
+            <input type="text" placeholder="Vase Prezime"><br><br>
+            <label for="">E-mail:</label>
+            <input type="email" placeholder="e-mail"><br><br>
+            <label for="">Password:</label>
+            <input type="password" placeholder="Sifra" maxlength="10">
+        </fieldset>
+
+    </form>
+    <!-- ili drugi nacin -->
+
+        
+    <form action="#">  <!-- da je google u action(link od googla) onda vodi na google (submit i action rade zajedno) -->  
+        <fieldset>
+            <legend>Log IN</legend>
+            <p>
+                <label>Godine</label>
+                <input type="number" placeholder="Vase godine" min="18" max="25" step="0.5">
+            </p>
+            <p>
+                <label>Datum rodjenja:</label>
+                <input type="date">
+            </p>
+            <p>
+                <label>Vreme rodjenj:</label>
+                <input type="time">
+            </p>
+            <p>
+                <label>Drzava stanovanja:</label>
+                <input type="text" value="Srbija" disabled>
+            </p>
+            <p>
+                <label style="font-weight: bold;">Pol:</label><br><br>
+                <input type="radio" name="pol" value="N" checked>Neopredeljenj:<br><br>
+                <input type="radio" name="pol" value="M">Muski:<br><br>
+                <input type="radio" name="pol" value="Z">Zenski:<br><br>
+            </p>
+
+        </fieldset>
+            <fieldset>
+                <p>
+                    <legend>Dodatne informacije</legend>
+                    <label>Da li zelite da primate poruke od nas?</label><br>
+                    <input type="radio" name="ime" value="da" checked>Da
+                    <input type="radio" name="ime" value="ne">Ne
+                </p>
+                <p>
+                    <label>Znanje programskih jezika:</label><br>
+                    <input type="checkbox" name="jezik" value="java">Java<br>
+                    <input type="checkbox" name="jezik" value="php">PHP<br>
+                    <input type="checkbox" name="jezik" value="c++">C++<br>
+                    <input type="checkbox" name="ljezik" value="payton">Payton<br>
+                </p>
+                <p>
+                    <label>CV:</label>
+                    <input type="file">
+                </p>
+                <p>
+                    <label for="">Odaberi kurs:</label>
+                    <select>
+                        <option value="php">Php</option>
+                        <option value="js">Js</option>
+                        <option value="html">Html</option>
+
+                    </select>
+                </p>
+                <p>
+                    <label for="">Odaberi kurs:</label>
+                    <select>
+                        <optgroup label="Nis"></optgroup>
+                            <option value="php">Php</option>
+                            <option value="js">Js</option>
+                            <option value="html">Html</option>
+                        </optgroup>
+                                                                        <!-- optgroup sluzi da izaberemo
+                                                                        kao u primeru kom gradu zelimo i onda
+                                                                        izaberemo sta zelimo jedostavno vidimo
+                                                                        sta je ponudjeno i gde -->
+                        <optgroup label="Krusevac"></optgroup>
+                            <option value="php">Php</option>
+                            <option value="html">Html</option>
+                        </optgroup>
+
+                    </select>
+                </p>
+                <p>
+                    <label>Zato ste se opredelili za nas?</label><br>
+                    <textarea name="" id="" cols="30" rows="10"></textarea>
+                </p>
+                
+            </fieldset>
+            <input type="reset" value="Restart">  <!-- restaruje sve u formi  -->
+            <input type="submit" value="Sent">
+
+    </form>
+    
+</body>
+</html>

@@ -1,0 +1,16 @@
+td {
+    border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+.obojen {
+    background-color: pink;
+}
+.ljubicasti {
+    color: purple;  
+}
+
+.border {
+    border: solid 1px black;
+}

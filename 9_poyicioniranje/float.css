@@ -1,0 +1,25 @@
+#glava {
+    overflow: hidden;
+}
+.deca {
+    width: 31%;
+    height: 300px;
+    float: left;
+    background-color: red;
+    margin: 20px;
+    position: relative;
+}
+div img {
+    width: 200px;
+    height: 200px;
+    position:absolute;
+    top: 20px;
+    left: 200px;
+}
+.deca p {
+    position: absolute;
+    bottom: 20px;
+    left: 100px;
+    text-align: center;
+    
+}

@@ -1,0 +1,67 @@
+#div1 {
+    background-color: brown;
+    width: 400px;
+    height: 200px;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    
+}
+.news {
+    
+    background-color: cadetblue;
+    width: 350px;
+    height: 250px;
+    position: relative; 
+    /* pozicira se na poziciju koju vec ima */
+    left: 40px;
+    
+}
+.news img {
+    width: 150px;
+    height: 100px;
+    position:absolute;
+    /* pozicionira se na poziciju koju ima njegov roditelj */
+    top: 45px;
+    left: 20px;
+}
+
+.news h5 {
+    position: absolute;
+    top: 40px;
+    right: 5px;
+}
+footer {
+    background-color: black;
+    color: wheat;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    padding: 0;
+    margin: 0;
+}
+* {
+    margin: 0;
+}
+.header {
+    background-image: url(bg-pizza.jpg.crdownload);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+.div1 {
+    width: 100%;
+    height: 200px;
+    position: relative;
+}
+.par {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color:blue;
+    font-size: 30px;
+    transform: translate(-50%, -50%);
+}

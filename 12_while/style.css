@@ -1,0 +1,12 @@
+img {
+    width: 100px;
+    margin: 10px;
+    
+}
+
+.okvir1 {
+    border: solid 1px green;
+}
+.okvir2 {
+    border: red dotted 1px;
+}

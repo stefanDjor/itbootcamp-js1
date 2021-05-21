@@ -1,0 +1,68 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+a {
+    /* border-style: dashed;
+    border-width: 2px;
+    border-color: black;
+    border-radius: 30%;
+    border-left-width: 5px;
+    border-left-style: solid; */
+    border: 2px dashed black;
+    border-left: 5px solid red;
+    margin: 10px;
+    padding: 10px 20px;
+}
+
+/* MARGINA JE PROSTOR VAN OKVIRA */
+/* PADDING JE PROSTOR OD OKVIRA DO ELEMENTA UNUTAR ELEMENTA */
+
+/* 
+    Display svojstvo:
+    
+    Block: P, div, h1 ... , table (mozemo menjati sirinu i visinu)
+
+    INLINE: a, span, td (ne mozemo menjati visiu i sirinu)
+
+    INLINE-BLOCK (to je in line kome moze da se podesi width i height)
+ */
+
+span {
+    border: 1px solid black;
+    margin: 20px;
+    
+   
+}
+
+#prvi {
+    background-color: yellow;
+    padding: 30px 20px 5px 100px; 
+    
+}
+#drugi {
+    background-color: violet;
+    padding: 15px 20px 4px 30px;
+
+}
+
+p {
+    border: solid 1px black;
+    margin: 10px;
+    padding: 10px;
+    background-color: coral;
+    width: 300px;
+    height: 100px;
+}
+
+#s1, #s2 {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 20px;
+    display: inline-block;  /* sa ovim mozemo da primenimo width height */
+    width:50%;
+    height: 50px;
+    
+}
